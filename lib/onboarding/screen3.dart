@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:gdsc_ssa_task_managment_app/onboarding/reuseable_widget.dart';
+import 'package:gdsc_ssa_task_managment_app/onboarding/screen4.dart';
 
 class Onboarding3 extends StatelessWidget {
   const Onboarding3({Key? key}) : super(key: key);
@@ -41,7 +43,7 @@ class Onboarding3 extends StatelessWidget {
                 child: TextButton(
                   style:TextButton.styleFrom(backgroundColor: Colors.blue),
                   onPressed: (){
-                    // Navigator.push(context, MaterialPageRoute(builder: (context)=> const HomePage()));
+                     Navigator.push(context, MaterialPageRoute(builder: (context)=>  const OnboardingScreen4()));
                   },
                   child: const Text("Next", style: TextStyle(color: Colors.white),),
                 ),
@@ -53,3 +55,5 @@ class Onboarding3 extends StatelessWidget {
     );
   }
 }
+
+

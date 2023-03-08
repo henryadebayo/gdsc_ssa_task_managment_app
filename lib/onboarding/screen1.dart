@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gdsc_ssa_task_managment_app/onboarding/screen2.dart';
 
 class Onboarding1 extends StatelessWidget {
+
   const Onboarding1({Key? key}) : super(key: key);
 
   @override
@@ -9,7 +10,8 @@ class Onboarding1 extends StatelessWidget {
     return Scaffold(
       body:
       SafeArea(
-        child: Column(
+        child:
+        Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Container(
