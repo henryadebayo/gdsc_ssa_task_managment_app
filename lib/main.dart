@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'auth/splash_screen.dart';
+import 'home_page/task_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
+     // home: HomePage(),
       home: const SplashScreen(),
     );
   }

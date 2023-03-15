@@ -24,7 +24,7 @@ class CustomButton extends StatelessWidget {
         width: MediaQuery.of(context).size.width,
         child: TextButton(
           style:TextButton.styleFrom(backgroundColor:btnColor ?? Colors.blue),
-          onPressed: summit ?? ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=>    const Placeholder())),
+          onPressed: summit ?? ()=> Navigator.push(context, MaterialPageRoute(builder: (context)=>    nextPage!)),
           // onPressed: (){
           //   Navigator.push(context, MaterialPageRoute(builder: (context)=>   summit ?? Placeholder()));
           // },

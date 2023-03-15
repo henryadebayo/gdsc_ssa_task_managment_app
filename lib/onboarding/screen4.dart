@@ -3,6 +3,8 @@ import 'package:gdsc_ssa_task_managment_app/auth/sign_in.dart';
 import 'package:gdsc_ssa_task_managment_app/onboarding/custom_button.dart';
 import 'package:gdsc_ssa_task_managment_app/onboarding/reuseable_widget.dart';
 
+import '../auth/sign_up.dart';
+
 
 
 
@@ -25,6 +27,7 @@ class OnboardingScreen4 extends StatelessWidget {
           ),
           SizedBox(height: 10,),
           CustomButton(
+            nextPage: LoginScreen(),
             btnColor: Colors.green,
             buttonLabel: "Log in",
 
